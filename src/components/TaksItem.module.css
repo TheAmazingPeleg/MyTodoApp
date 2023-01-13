@@ -1,0 +1,23 @@
+.task {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.checkbox {
+    margin-right: 40px;
+}
+
+.deleted {
+    opacity: 0.4;
+    text-decoration: line-through;
+}
+.normal {
+}
